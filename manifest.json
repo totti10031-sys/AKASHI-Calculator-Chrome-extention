@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AKASHI 月末過不足チェッカー",
+  "version": "1.1.1",
+  "description": "未来日の勤務日を8時間換算し、月末の過不足時間を表示します",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://atnd.ak4.jp/ja/attendance*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
